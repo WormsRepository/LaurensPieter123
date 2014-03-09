@@ -13,7 +13,7 @@ public class PrimeNumberChecker
 
 		if(posInt==2)
 		{
-			System.out.println("This is a prime number!");
+			System.out.println("This is a real prime number!");
 		}
 		
 		while(x>1)
@@ -21,7 +21,7 @@ public class PrimeNumberChecker
 			
 			if(posInt % x==0)
 			{
-				System.out.println("This is not a prime number!");
+				System.out.println("This is not a real prime number!");
 				x=1;
 			}
 			
@@ -67,13 +67,8 @@ public class PrimeNumberChecker
 			primeNumbers = primeNumbers + 2;
 		}
 		System.out.println(primeNumbers);
-<<<<<<< HEAD
-		System.out.println("test 1");
-		System.out.println("test 2");
-=======
 		System.out.println("TEST 1");
 		System.out.println("TEST 2");
->>>>>>> refs/heads/capital
 		
 	}
 }
