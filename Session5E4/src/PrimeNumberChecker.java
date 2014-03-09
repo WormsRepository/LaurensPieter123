@@ -67,8 +67,8 @@ public class PrimeNumberChecker
 			primeNumbers = primeNumbers + 2;
 		}
 		System.out.println(primeNumbers);
-		System.out.println("Test 1");
-		System.out.println("Test 2");
+		System.out.println("TEST 1");
+		System.out.println("TEST 2");
 		
 	}
 }
